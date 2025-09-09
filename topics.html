@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Key Topics - Cybersecurity Explorer</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1>Cybersecurity Explorer</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Cybersecurity</a></li>
+                <li><a href="cyberthreats.html">Cyber Threats</a></li>
+                <li><a href="redteam.html">Red Team</a></li>
+                <li><a href="blueteam.html">Blue Team</a></li>
+                <li><a href="topics.html" class="active">Key Topics</a></li>
+                <li><a href="roadmap.html">Roadmap</a></li>
+                <li><a href="resources.html">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Key Cybersecurity Topics</h2>
+            <p>Explore essential areas in cybersecurity to build a strong foundation.</p>
+        </section>
+        <section class="topic">
+            <button class="collapsible" onclick="toggleSection('network')">Network Security</button>
+            <div id="network" class="content">
+                <p>Network security involves protecting the integrity of networks and their data from unauthorized access. Key concepts include firewalls, VPNs, and intrusion detection systems.</p>
+            </div>
+        </section>
+        <section class="topic">
+            <button class="collapsible" onclick="toggleSection('ethical')">Ethical Hacking</button>
+            <div id="ethical" class="content">
+                <p>Ethical hacking, or penetration testing, involves simulating attacks to identify vulnerabilities. Tools like Metasploit and techniques such as social engineering are common.</p>
+            </div>
+        </section>
+        <section class="topic">
+            <button class="collapsible" onclick="toggleSection('crypto')">Cryptography</button>
+            <div id="crypto" class="content">
+                <p>Cryptography is the science of securing communication. It includes encryption algorithms like AES and RSA, and concepts like public-key infrastructure.</p>
+            </div>
+        </section>
+        <section class="topic">
+            <button class="collapsible" onclick="toggleSection('web')">Web Security</button>
+            <div id="web" class="content">
+                <p>Web security focuses on protecting websites and web applications from threats like SQL injection, XSS, and CSRF. Best practices include input validation and secure coding.</p>
+            </div>
+        </section>
+        <section class="topic">
+            <button class="collapsible" onclick="toggleSection('incident')">Incident Response</button>
+            <div id="incident" class="content">
+                <p>Incident response is the process of identifying, containing, and mitigating cyber incidents. It involves planning, detection, response, and recovery phases.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Cybersecurity Explorer. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
