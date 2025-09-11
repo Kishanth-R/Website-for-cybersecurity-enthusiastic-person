@@ -1,5 +1,3 @@
-# Website-for-cybersecurity-enthusiastic-people-
-
 # Website for Cybersecurity Enthusiastic Person
 
 Welcome to the **Website for Cybersecurity Enthusiastic Person**! The project aims to give resources, articles, and tools for the enthusiastic people of cybersecurity. Whether you are a novice or a veteran professional, the site has useful content that keeps you abreast with the new in cybersecurity trends and practices.
@@ -42,7 +40,7 @@ To run this project locally, do the following:
    ```bash
 
    cd Website-for-cybersecurity-enthusiastic-person
-```
+   ```
 3. **Install Dependencies**
 
    If there are dependencies (for instance, if you're working with Node.js), install them using:
@@ -75,7 +73,7 @@ Contributions are welcome from the community! If you want to enhance this websit
    Clone your forked repository to your local machine:
    ```
 git clone https://github.com/YOUR_USERNAME/Website-for-cybersecurity-enthusiastic-person.git
-```
+   ```
 3. **Create a New Branch**
 
    Create a branch for your feature or bug fix:
@@ -96,10 +94,10 @@ git clone https://github.com/YOUR_USERNAME/Website-for-cybersecurity-enthusiasti
 6. **Push to Your Fork**
 
 Push your changes to your fork:
-```bash
+   ```bash
 
    git push origin feature/your-feature-name
-```
+   ```
 7. **Create a Pull Request**
 
    Head to the original repository and create a pull request from your fork to the main repository.
