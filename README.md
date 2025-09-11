@@ -94,7 +94,7 @@ Contributions are welcome from the community! If you want to enhance this websit
    ```
 6. **Push to Your Fork**
 
-Push your changes to your fork:
+   Push your changes to your fork:
    ```bash
 
    git push origin feature/your-feature-name
