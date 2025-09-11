@@ -71,16 +71,16 @@ Contributions are welcome from the community! If you want to enhance this websit
 2. **Clone Your Fork**
 
    Clone your forked repository to your local machine:
-   ```
+   ```bash
 git clone https://github.com/YOUR_USERNAME/Website-for-cybersecurity-enthusiastic-person.git
-   ```
+   
 3. **Create a New Branch**
 
    Create a branch for your feature or bug fix:
-   ```bash
+    ```bash
 
-   git checkout -b feature/your-feature-name
-   ```
+    git checkout -b feature/your-feature-name
+    ```
 4. **Make Changes**
 
    Make your changes in the codebase.
