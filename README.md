@@ -72,7 +72,8 @@ Contributions are welcome from the community! If you want to enhance this websit
 
    Clone your forked repository to your local machine:
    ```bash
-git clone https://github.com/YOUR_USERNAME/Website-for-cybersecurity-enthusiastic-person.git
+   git clone https://github.com/YOUR_USERNAME/Website-for-cybersecurity-enthusiastic-person.git
+   ```
    
 3. **Create a New Branch**
 
